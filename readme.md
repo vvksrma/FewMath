@@ -8,6 +8,10 @@
 - **Optimized Performance**: Efficient algorithms for accurate and fast calculations.
 - **Easy Integration**: Simple API with minimal setup.
 
+## 🎉 Currently Developed Features
+- Algebra Calculations
+-- GCD ✔️
+
 ---
 
 # 🚧 UNDER CONSTRUCTION 🚧
