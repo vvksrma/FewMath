@@ -7,17 +7,17 @@ int algebra::gcd(int a, int b) {
     if (b == 0) return a;
 
     int shift = 0;
-    while (((a | b) & 1) == 0) { // Both a and b are even
+    while (((a | b) & 1) == 0) { 
         a >>= 1;
         b >>= 1;
         shift++;
     }
 
-    while ((a & 1) == 0) // Remove factors of 2 from a
+    while ((a & 1) == 0) 
         a >>= 1;
 
     while (b != 0) {
-        while ((b & 1) == 0) // Remove factors of 2 from b
+        while ((b & 1) == 0) 
             b >>= 1;
 
         if (a > b)
