@@ -1,15 +1,24 @@
 #ifndef ALGEBRA_H
 #define ALGEBRA_H
 
+#include <vector>
+
 class algebra {
 public:
     /**
-     * Calculates the greatest common divisor (GCD) of two numbers using the binary GCD algorithm.
-     * @param a The first number.
-     * @param b The second number.
-     * @return The greatest common divisor of a and b.
+     * Computes the GCD of two integers.
      */
     static int gcd(int a, int b);
+
+    /**
+     * Computes the GCD of a single array.
+     */
+    static int gcd(const std::vector<int>& nums);
+
+    /**
+     * Computes the GCD element-wise for two arrays.
+     */
+    static std::vector<int> gcd(const std::vector<int>& a, const std::vector<int>& b);
 };
 
 #endif // ALGEBRA_H
