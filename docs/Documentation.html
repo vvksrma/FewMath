@@ -8,14 +8,14 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
     <header class="bg-blue-600 text-white py-4 text-center">
-        <h1 class="text-3xl font-bold">FewMath - Universal Math Library</h1>
-        <p class="text-lg">A cross-language mathematical library for complex calculations</p>
+        <h1 class="text-3xl font-bold">FewMath - High-Performance Math Library</h1>
+        <p class="text-lg">A cross-language mathematical library for efficient and accurate calculations</p>
     </header>
 
     <main class="max-w-4xl mx-auto p-6 bg-white shadow-lg mt-6 rounded-lg">
         <section>
             <h2 class="text-2xl font-semibold text-blue-600">📌 Introduction</h2>
-            <p class="mt-2">FewMath is an open-source mathematical library designed to simplify complex calculations across multiple programming languages. It supports C++, Java, Python, and JavaScript.</p>
+            <p class="mt-2">FewMath is an open-source mathematical library optimized for high-speed numerical computations. It supports C++, Java, Python, and JavaScript, making it a versatile choice for developers.</p>
         </section>
 
         <section class="mt-6">
@@ -30,18 +30,19 @@
             </div>
             <div class="bg-gray-200 p-4 rounded mt-2">
                 <p class="font-semibold">C++:</p>
-                <code class="text-sm"># Include fewmath.h and link the shared library</code>
+                <code class="text-sm"># Include "fewmath.h" and link the shared library</code>
             </div>
         </section>
 
         <section class="mt-6">
             <h2 class="text-2xl font-semibold text-blue-600">🚀 Quick Start</h2>
-            <p class="mt-2">Here’s how you can use FewMath for basic algebra operations:</p>
+            <p class="mt-2">Here’s how you can use FewMath for computing GCD:</p>
             <div class="bg-gray-900 text-white p-4 rounded mt-2">
                 <pre><code class="text-sm">
 # Python Example
-target = fewmath.algebra.gcd(36, 60)
-print(target)  # Output: 12
+import fewmath
+result = fewmath.algebra.gcd(36, 60)
+print(result)  # Output: 12
                 </code></pre>
             </div>
             <div class="bg-gray-900 text-white p-4 rounded mt-2">
@@ -51,6 +52,58 @@ const fewmath = require('fewmath');
 console.log(fewmath.algebra.gcd(36, 60)); // Output: 12
                 </code></pre>
             </div>
+            <div class="bg-gray-900 text-white p-4 rounded mt-2">
+                <pre><code class="text-sm">
+// C++ Example
+#include "fewmath.h"
+#include <iostream>
+int main() {
+    std::cout << algebra::gcd(36, 60) << std::endl; // Output: 12
+    return 0;
+}
+                </code></pre>
+            </div>
+        </section>
+
+        <section class="mt-6">
+            <h2 class="text-2xl font-semibold text-blue-600">📊 Benchmark Results</h2>
+            <p class="mt-2">FewMath has been optimized for performance. Below is a comparison with std::gcd:</p>
+            <table class="w-full bg-gray-200 mt-4 rounded-lg overflow-hidden">
+                <thead>
+                    <tr class="bg-blue-600 text-white">
+                        <th class="py-2 px-4">Test Case</th>
+                        <th class="py-2 px-4">std::gcd (s)</th>
+                        <th class="py-2 px-4">FewMath GCD (s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-t">
+                        <td class="py-2 px-4">Small Numbers</td>
+                        <td class="py-2 px-4">2.08e-07</td>
+                        <td class="py-2 px-4">4.46e-07</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-2 px-4">Medium Numbers</td>
+                        <td class="py-2 px-4">2.82e-07</td>
+                        <td class="py-2 px-4">3.93e-07</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-2 px-4">Large Numbers</td>
+                        <td class="py-2 px-4">4.6e-07</td>
+                        <td class="py-2 px-4">2.88e-07</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-2 px-4">Prime Numbers</td>
+                        <td class="py-2 px-4">5.51e-07</td>
+                        <td class="py-2 px-4">1.2e-07</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-2 px-4">Mixed Numbers</td>
+                        <td class="py-2 px-4">4.06e-07</td>
+                        <td class="py-2 px-4">1.43e-07</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <section class="mt-6">
