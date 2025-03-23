@@ -23,6 +23,9 @@ FewMath is currently in development. Stay tuned for updates!
 
 ---
 
+![GitHub last commit](https://github.com/vvksrma/FewMath/graphs/contributors)
+
+
 ## 📜 License
 FewMath is licensed under the **MIT License**. See `LICENSE` for details.
 
