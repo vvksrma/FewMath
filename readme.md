@@ -32,4 +32,4 @@ FewMath is licensed under the **MIT License**. See `LICENSE` for details.
 
 
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vvksrma/PayWise)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vvksrma/FewMath)
