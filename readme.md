@@ -45,7 +45,7 @@ No need to write lengthy math functions from scratch — just input the values a
 
 ## 🛠️ Installation
 
-### 🔸 Python
+### 🔸 C++
 ```
 #include "fewmath.h"
 
