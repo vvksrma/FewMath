@@ -1,0 +1,1 @@
+test case command: g++ test_gcd.cpp -I ../src/core/include -L ../build -lfewmath -o test_gcd.exe

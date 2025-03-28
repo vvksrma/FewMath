@@ -1,19 +1,13 @@
-# Build
-build/
+/build/
+/.idea/
+/.vscode/
+/*.exe
+/*.out
+/*.log
+*.DS_Store
+*.obj
 *.o
-*.out
-*.exe
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Others
-*.swp
+*.a
+*.so
+*.dll
+*.zip
